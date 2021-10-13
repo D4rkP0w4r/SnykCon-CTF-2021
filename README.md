@@ -6,7 +6,7 @@
 ## Solution
 * Overview the challenge provided us a `request` and `response` and `POST` method
 ![Main function](./challenge.PNG) 
-*  I use curl command with `POST` method and seems nothing =))))
+*  I used curl command with `POST` method and seems nothing =))))
 ![Main function](./1.PNG) 
 * Now i read `index.js` file 
 ```c
