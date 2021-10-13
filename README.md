@@ -4,7 +4,7 @@
 * Level: None
 * Description: None
 ## Solution
-* Overview the challenge provided us a `request` and `response` and `POST` method
+* Overview the challenge provided us a `Request` and `Response` and `POST` method
 ![Main function](./challenge.PNG) 
 *  I used curl command with `POST` method and seems nothing =))))
 ![Main function](./1.PNG) 
