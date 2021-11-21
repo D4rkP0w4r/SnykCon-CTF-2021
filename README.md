@@ -6,7 +6,7 @@
 ## Solution
 * Overview the challenge provided us a `Request` and `Response` and `POST` method
 ![Main function](./challenge.PNG) 
-*  I usage curl command with `POST` method and seems nothing =))))
+*  I used curl command with `POST` method and seems nothing =))))
 ![Main function](./1.PNG) 
 * Now i read `index.js` file 
 ```c
@@ -46,7 +46,7 @@ app.listen(8000);
 * I found two line of code `const _ = require('lodash');`,`_.merge(out, req.body);`,`lodash` is a lib of javascript you can read document about it at `https://lodash.com/` :))
 * Then i found some exploit ways involved lodash and i found `CVE-2018-3721`. I realized the challenge have a problem about `Prototype Pollution`
 * <https://nvd.nist.gov/vuln/detail/CVE-2018-3721>
-* I usage `curl` command again and finally, i found a flag ^_^ 
+* I used `curl` command again and finally, i found a flag ^_^ 
 ```c
 curl -H "Content-Type: application/json" -X POST http://35.211.53.53:8000/echo -d  '{"message": "ping", "__proto__": {"flag":true}}'
 ```
